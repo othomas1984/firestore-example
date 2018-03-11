@@ -12,6 +12,8 @@
 		33E1602B20548D2000622335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E1602920548D2000622335 /* Main.storyboard */; };
 		33E1602D20548D2000622335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E1602C20548D2000622335 /* Assets.xcassets */; };
 		33E1603020548D2000622335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E1602E20548D2000622335 /* LaunchScreen.storyboard */; };
+		33E1603C2054934F00622335 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E1603B2054934F00622335 /* User.swift */; };
+		33E160402054AB6200622335 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33E1603F2054AB6200622335 /* GoogleService-Info.plist */; };
 		796345783E6A6372BBE41326 /* Pods_Firebase_Firestore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B681D96DF27322FA258E40 /* Pods_Firebase_Firestore_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		33E1602C20548D2000622335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33E1602F20548D2000622335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33E1603120548D2000622335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E1603B2054934F00622335 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		33E1603F2054AB6200622335 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5F36619B2467E780A671824A /* Pods-Firebase Firestore Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Firestore Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Firestore Example/Pods-Firebase Firestore Example.release.xcconfig"; sourceTree = "<group>"; };
 		89B681D96DF27322FA258E40 /* Pods_Firebase_Firestore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Firestore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +65,8 @@
 		33E1602420548D2000622335 /* Firebase Firestore Example */ = {
 			isa = PBXGroup;
 			children = (
+				33E1603F2054AB6200622335 /* GoogleService-Info.plist */,
+				33E1603B2054934F00622335 /* User.swift */,
 				33E1602520548D2000622335 /* AppDelegate.swift */,
 				33E1602720548D2000622335 /* ViewController.swift */,
 				33E1602920548D2000622335 /* Main.storyboard */,
@@ -151,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33E1603020548D2000622335 /* LaunchScreen.storyboard in Resources */,
+				33E160402054AB6200622335 /* GoogleService-Info.plist in Resources */,
 				33E1602D20548D2000622335 /* Assets.xcassets in Resources */,
 				33E1602B20548D2000622335 /* Main.storyboard in Resources */,
 			);
@@ -235,6 +242,7 @@
 			files = (
 				33E1602820548D2000622335 /* ViewController.swift in Sources */,
 				33E1602620548D2000622335 /* AppDelegate.swift in Sources */,
+				33E1603C2054934F00622335 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
